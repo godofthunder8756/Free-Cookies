@@ -2,7 +2,7 @@
   "name": "Cookie Generator",
   "version": "1.0",
   "description": "Generates cookies on websites that request them for testing purposes.",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "permissions": [ "cookies" ],
   "content_scripts": [
     {
@@ -10,7 +10,7 @@
       "js": [ "content.js" ]
     }
   ],
-  "browser_action": {
+  "action": {
     "default_title": "Cookie Generator",
     "default_popup": "popup.html"
   },
