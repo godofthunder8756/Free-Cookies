@@ -14,7 +14,8 @@ A Chrome extension that spoofs cookie data to prevent cross-site tracking!
 When a website prompts you to accept their cookies, **before clicking accept**, click on the extension to generate new cookie data. Once it says complete you may then click 'accept'.
 
 
-> **Note:** This extension is **Manifest: v2** and may not work in future Chrome policy updates.
+~~> **Note:** This extension is **Manifest: v2** and may not work in future Chrome policy updates.~~
+> Upgraded to **Manifest: v2**.
 
 ### Lisenced under GPL v3
 ###### (c) Aidan Ahern (2023)
